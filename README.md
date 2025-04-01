@@ -10,7 +10,8 @@ Unsupervised Learning: Isolation Forest (for novel attacks)
 
 Explainability: SHAP for model transparency
 
-Dataset: KDD Cup 99
+Dataset: https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data
+
 
 🚀 Features
 Dual-model approach for comprehensive threat detection
@@ -30,9 +31,6 @@ scikit-learn, SHAP, pandas, matplotlib
 Copy
 ├── data/                    # Preprocessed datasets  
 ├── notebooks/               # Jupyter notebooks  
-│   ├── 1_data_preprocessing.ipynb  
-│   ├── 2_model_training.ipynb  
-│   └── 3_shap_analysis.ipynb  
 ├── models/                  # Saved models (.h5, .pkl)  
 ├── utils/                   # Helper scripts  
 ├── README.md  
@@ -44,26 +42,17 @@ bash
 Copy
 pip install -r requirements.txt
 Run Jupyter notebooks:
-
 bash
 Copy
 jupyter notebook notebooks/
+
 📊 Results
 Model	Accuracy	Precision	Recall
 Random Forest	98.2%	97.8%	98.5%
 Isolation Forest	92.1%	89.3%	94.2%
 SHAP Beeswarm Plot
 
-📜 License
-MIT License - See LICENSE
-
-🔗 Connect:
-GitHub
-Open in Colab
-
 🎯 Why This Project?
 Real-world cybersecurity application
-
 Explainable AI for security analysts
-
 Modular code adaptable to other datasets
